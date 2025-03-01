@@ -11,7 +11,7 @@ const Home = () => {
                 Bonjour,
                 <br /> je suis <span className="text-accent">Dongmo Feudjio Divin Virlence.</span>
             </h1>
-            <p className="my-4 text-center md:text-left">
+            <p className="text-sm my-4 text-center md:text-left">
                 Je suis développeur fullstack, utilisant Réact JS 
                 <br /> en frontend et Django en backend.
                 <br /> Contactez moi si vous avez besoin de mes services.
