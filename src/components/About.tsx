@@ -19,7 +19,7 @@ const aboutSections = [
 
     {
         id:3,
-        title: "Passionné par le machine learning.",
+        title: "Passionné par l'Intelligence Artificielle.",
         description: "Automatiser des taches difficiles est mon objectif.",
         icon: <BrainCog className="text-accent scale-150"/>
     }
@@ -29,7 +29,7 @@ const aboutSections = [
 const About = () => {
     return (
 
-        <div className="bg-base-300 p-10 mb-10 md:mb-32">
+        <div className="bg-base-300 p-10 mb-10" id="A propos">
 
             <Title title="A propos" />
 

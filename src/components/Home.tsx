@@ -5,7 +5,7 @@ import img from "../assets/img.jpg"
 
 const Home = () => {
   return (
-    <div className="flex flex-col-reverse md:flex-row justify-center items-center md:my-32 my-10">
+    <div className="flex flex-col-reverse md:flex-row justify-center items-center md:my-32 my-10" id="Home">
         <div className="flex flex-col justify-end justify-start">
             <h1 className="text-3xl md:text-4xl font-bold text-center md:text-left mt-4 md:mt-0">
                 Bonjour,
@@ -16,7 +16,7 @@ const Home = () => {
                 <br /> en frontend et Django en backend.
                 <br /> Contactez moi si vous avez besoin de mes services.
             </p>
-            <a href="" className="btn btn-accent md:w-fit">
+            <a href="dongmovirlence@gmail.com" className="btn btn-accent md:w-fit">
                 <Mail className="w-5 h-5"/>
                 Contactez moi
             </a>
