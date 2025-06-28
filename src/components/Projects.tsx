@@ -51,8 +51,11 @@ const projects = [
 ];
 
 const Projects = () => {
-  const openModal = (id) => {
-    document.getElementById(`modal_${id}`).showModal();
+  const openModal = (id: number) => {
+    const modal = document.getElementById(`modal_${id}`) as HTMLDialogElement | null;
+    if (modal) {
+      modal.showModal();
+    }
   };
 
   return (

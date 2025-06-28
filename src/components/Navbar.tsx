@@ -1,5 +1,3 @@
-import { Container } from "lucide-react"
-
 
 const Navbar = () => {
     return (
