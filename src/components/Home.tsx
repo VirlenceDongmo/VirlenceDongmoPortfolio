@@ -1,7 +1,5 @@
 import { Mail } from "lucide-react"
-
 import img from "../assets/img.jpg"
-
 
 const Home = () => {
   return (
@@ -12,11 +10,11 @@ const Home = () => {
                 <br /> je suis <span className="text-accent">Dongmo Feudjio Divin Virlence.</span>
             </h1>
             <p className="text-sm my-4 text-center md:text-left">
-                Je suis développeur fullstack, utilisant Réact JS 
+                Je suis en cours d'obtention d'un Master I en Informatique, option Intelligence Artificielle, développeur fullstack, utilisant Réact JS 
                 <br /> en frontend et Django en backend.
                 <br /> Contactez moi si vous avez besoin de mes services.
             </p>
-            <a href="dongmovirlence@gmail.com" className="btn btn-accent md:w-fit">
+            <a href="mailto:dongmovirlence@gmail.com" className="btn btn-accent md:w-fit">
                 <Mail className="w-5 h-5"/>
                 Contactez moi
             </a>

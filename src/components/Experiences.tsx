@@ -2,11 +2,15 @@ import Title from "./Title"
 
 import imgCSS from "../assets/techno/css.png";
 import imgDjango from "../assets/techno/django.png";
+import imgDjangoRest from "../assets/techno/djangoRest.jpeg";
 import imgHTML from "../assets/techno/html.png";
 import imgJS from "../assets/techno/js.png";
 import imgPYTHON from "../assets/techno/python.png";
 import imgREACT from "../assets/techno/react.png";
 import imgTAILWIND from "../assets/techno/tailwind.png";
+import imgGit from "../assets/techno/git.png";
+import imgdocker from "../assets/techno/docker.png";
+import imgRASA from "../assets/techno/rasa.jpeg";
 
 
 const skills = [
@@ -16,7 +20,11 @@ const skills = [
     {id:4, name:"Réact", image:imgREACT},
     {id:5, name:"Python", image:imgPYTHON},
     {id:6, name:"Tailwind CSS", image:imgTAILWIND},
-    {id:8, name:"Django", image:imgDjango}
+    {id:8, name:"Django", image:imgDjango},
+    {id:9, name:"Django Rest Framework", image:imgDjangoRest},
+    {id:9, name:"Git", image:imgGit},
+    {id:9, name:"Docker", image:imgdocker},
+    {id:9, name:"RASA", image:imgRASA}
 ]
 
 

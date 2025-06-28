@@ -5,7 +5,6 @@ const Navbar = () => {
     return (
         <div className="flex justify-center md:justify-between item-center p-4">
             <a href="#" className="flex items-center font bold text-3xl md:text-xl">
-                <Container className="mr-2" />
                 Virlence
                 <span className="text-accent">Dev</span>
             </a>
